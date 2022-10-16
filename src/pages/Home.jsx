@@ -9,7 +9,7 @@ export const Home = () => {
       try {
         const data = await getCountries();
         setCountryList(data);
-        console.log(data);
+      
       } catch (error) {
         console.log(error.message);
       }
